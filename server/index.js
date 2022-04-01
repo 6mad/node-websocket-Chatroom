@@ -14,7 +14,7 @@ server.listen(PORT,()=> {
 });
 
 app.get('/test',(req,res)=>{
-	res.send("test")
+	res.send("<h1>test666</h1>")
 })
 
 app.get('/questionslist/time',(req,res)=>{
