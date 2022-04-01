@@ -12,3 +12,37 @@ server.listen(PORT,()=> {
   console.info("- Local:   http://localhost:"+PORT);
   console.info(`- Network: http://${address}:`+PORT)
 });
+
+app.get('/test',(req,res)=>{
+	res.send("test")
+})
+
+app.get('/questionslist/time',(req,res)=>{
+	cardData = ()=> {
+		return {
+        title: 'ss',
+        question: 'ssss',
+        author: 'sss',
+        time: '',
+        likes: '',
+        replys: '',
+        reply_name: '',
+        reply: '',
+        author_link: '',
+        reply_link: '',
+        chats_link: '',
+		}
+      }
+	const cardAlist = new Array()
+	for(let i = 0;i < 10;i++){
+		cardAlist.push(cardData())
+	}
+	  const result = {
+		  'list':cardAlist,
+		  'total':1
+	  }
+	res.send(result)
+})
+// app.get('/questionslist/time',(req,res)=>{
+// 	res.send("12")
+// })
