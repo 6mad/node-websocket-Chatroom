@@ -14,8 +14,7 @@ server.listen(PORT,()=> {
 });
 
 app.get('/test',(req,res)=>{
-	console.log('req:'+req.param[0]);
-	res.send("test")
+	res.send("<h1>test666</h1>")
 })
 
 app.get('/questionslist/time',(req,res)=>{
@@ -25,10 +24,10 @@ app.get('/questionslist/time',(req,res)=>{
         question: 'ssss',
         author: 'sss',
         time: '',
-        likes: '',
-        replys: '',
-        reply_name: '',
-        reply: '',
+        likes: '88',
+        replys: '99',
+        reply_name: 'vvv',
+        reply: 'ddd',
         author_link: '',
         reply_link: '',
         chats_link: '',

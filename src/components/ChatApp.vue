@@ -121,18 +121,6 @@
                 <span class="ui-label">邮箱：</span>
                 <span class="ui-text">{{about.email}}</span>
               </li>
-              <li>
-                <span class="ui-label">仓库：</span>
-                <a class="ui-link" :href="about.github" target="_blank">GitHub</a>
-              </li>
-              <li>
-                <a class="ui-link" :href="about.github" target="_blank">
-                  <img src="https://img.shields.io/github/stars/cleverqin/node-websocket-Chatroom?label=Star&style=flat&logo=github" alt="">
-                </a>
-                <a class="ui-link" :href="about.github" target="_blank">
-                  <img src="https://img.shields.io/github/forks/cleverqin/node-websocket-Chatroom?label=Fork&style=flat&logo=github" alt="">
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -221,18 +209,6 @@
             <li>
               <span class="ui-label">邮箱：</span>
               <span class="ui-text">{{about.email}}</span>
-            </li>
-            <li>
-              <span class="ui-label">仓库：</span>
-              <a class="ui-link" :href="about.github" target="_blank">GitHub</a>
-            </li>
-            <li>
-              <a class="ui-link" :href="about.github" target="_blank">
-                <img src="https://img.shields.io/github/stars/cleverqin/node-websocket-Chatroom?label=Star&style=flat&logo=github" alt="">
-              </a>
-              <a class="ui-link" :href="about.github" target="_blank">
-                <img src="https://img.shields.io/github/forks/cleverqin/node-websocket-Chatroom?label=Fork&style=flat&logo=github" alt="">
-              </a>
             </li>
           </ul>
         </div>
@@ -364,8 +340,8 @@
         about:{
           version:"v1.0",
           license:"MIT",
-          author:"cleverqin",
-          email:"705597001@qq.com",
+          author:"hb",
+          email:"123@qq.com",
           github:"https://github.com/cleverqin/node-websocket-Chatroom"
         },
         loginUser:{},
