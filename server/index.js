@@ -14,6 +14,7 @@ server.listen(PORT,()=> {
 });
 
 app.get('/test',(req,res)=>{
+	console.log('req:'+req.param[0]);
 	res.send("test")
 })
 
@@ -41,6 +42,7 @@ app.get('/questionslist/time',(req,res)=>{
 		  'list':cardAlist,
 		  'total':1
 	  }
+	  console.log('req:'+req.param[0]);
 	res.send(result)
 })
 // app.get('/questionslist/time',(req,res)=>{
