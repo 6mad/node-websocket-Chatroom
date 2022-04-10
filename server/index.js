@@ -44,6 +44,6 @@ app.get('/questionslist/time',(req,res)=>{
 	  console.log('req:'+req.param[0]);
 	res.send(result)
 })
-// app.get('/questionslist/time',(req,res)=>{
-// 	res.send("12")
-// })
+app.get('/questionslist/time',(req,res)=>{
+	res.send("12")
+})
