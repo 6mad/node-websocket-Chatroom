@@ -125,5 +125,4 @@ app.get('/api/commentsdata',(req,res)=>{
 })
 app.get('/api/questionslist/total',(req,res)=>{
 	console.log('api/questionslist/total')
-	res.send("12")
-})
+
